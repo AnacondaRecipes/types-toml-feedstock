@@ -25,8 +25,8 @@ requirements:
     - python
 
 test:
-  imports:
-    - types
+  import:
+    - toml
   requires:
     - pip
   commands:
