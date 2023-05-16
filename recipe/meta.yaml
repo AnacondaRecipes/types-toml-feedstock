@@ -26,8 +26,7 @@ requirements:
 
 test:
   imports:
-    # Not sure what to import here
-    # Have tried types-toml, typeshed, toml, and types
+    - types
   requires:
     - pip
   commands:
